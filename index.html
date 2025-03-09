@@ -1,12 +1,132 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to My Website</title>
+    <title>Morvarid Emsaki - Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .section {
+            padding: 100px 20px;
+            text-align: center;
+        }
+        #about img {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+        }
+        #portfolio .category {
+            margin-bottom: 40px;
+        }
+        .skills-bar {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            width: 50%;
+            margin: auto;
+        }
+        .bar {
+            background-color: #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        .bar div {
+            height: 30px;
+            background-color: #000;
+            text-align: center;
+            color: #fff;
+        }
+        footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        footer a {
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello, I'm Morvarid!</h1>
-    <p>This is my first website hosted on GitHub Pages.</p>
+
+<header>
+    <h1>Morvarid Emsaki</h1>
+    <p>Data Analyst | UX Designer | Power BI Specialist</p>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#skills">Skills</a>
+        <a href="#certifications">Certifications</a>
+    </nav>
+</header>
+
+<section id="about" class="section">
+    <img src="your-image-url.jpg" alt="Morvarid Emsaki">
+    <p>Hi, I'm Morvarid, a UX Designer and Data Analyst who specializes in transforming data into powerful insights and creating user-centered designs. With a passion for problem-solving, I bridge the gap between data and design to deliver impactful results.</p>
+</section>
+
+<section id="portfolio" class="section">
+    <h2>Portfolio</h2>
+    <div class="category">
+        <h3>UX Design Projects</h3>
+        <p>[Add your UX projects here]</p>
+    </div>
+    <div class="category">
+        <h3>Data Analytics Projects</h3>
+        <p>[Add your Data Analytics projects here]</p>
+    </div>
+    <div class="category">
+        <h3>Power BI Dashboards</h3>
+        <p>[Add your Power BI dashboards here]</p>
+    </div>
+</section>
+
+<section id="skills" class="section">
+    <h2>Skills</h2>
+    <div class="skills-bar">
+        <div class="bar"><div style="width: 90%">Power BI - 90%</div></div>
+        <div class="bar"><div style="width: 85%">UX Design - 85%</div></div>
+        <div class="bar"><div style="width: 80%">SQL - 80%</div></div>
+        <div class="bar"><div style="width: 75%">Data Modeling - 75%</div></div>
+    </div>
+</section>
+
+<section id="certifications" class="section">
+    <h2>Certifications & Education</h2>
+    <p>Microsoft Power BI Data Modeling Certificate</p>
+    <p>IBM Business Intelligence Certificate</p>
+    <p>Bachelor’s Degree in Computer Engineering</p>
+    <p>Master’s in Marketing</p>
+</section>
+
+<footer>
+    <p>Connect with me:</p>
+    <a href="https://linkedin.com/in/your-linkedin">LinkedIn</a>
+    <a href="https://github.com/your-github">GitHub</a>
+    <a href="mailto:your-email@gmail.com">Email</a>
+</footer>
+
 </body>
 </html>
